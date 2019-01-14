@@ -1,3 +1,6 @@
 (sym_lib_table
+  (lib (name ESP_WeatherStation_v2.0-cache)(type Legacy)(uri "${KIPRJMOD}/ESP_WeatherStation v2.0-cache.lib")(options "")(descr ""))
+  (lib (name MaxNil_components)(type Legacy)(uri /Users/max/Documents/KiCad/Libraries/MaxNil_components.lib)(options "")(descr ""))
   (lib (name ESP_WeatherStation-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP_WeatherStation-rescue.lib)(options "")(descr ""))
+  (lib (name ESP_WeatherStation-v2.0-rescue)(type Legacy)(uri "${KIPRJMOD}/ESP_WeatherStation v2.0-rescue.lib")(options "")(descr ""))
 )

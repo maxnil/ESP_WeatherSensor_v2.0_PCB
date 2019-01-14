@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ESP_WeatherStation v2.0-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -102,7 +103,7 @@ F 3 "" H 4000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESP_WeatherStation-rescue:AZ1117-3.3 U1
+L Regulator_Linear:AZ1117-3.3 U1
 U 1 1 5A92E9F5
 P 1700 1300
 F 0 "U1" H 1550 1425 50  0000 C CNN
@@ -113,7 +114,7 @@ F 3 "" H 1700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESP_WeatherStation-rescue:BMP280 U4
+L ESP_WeatherStation-v2.0-rescue:MaxNil_components_BMP280-ESP_WeatherStation_v2.0-cache U4
 U 1 1 5A9331AD
 P 7350 1500
 F 0 "U4" H 7350 2100 50  0000 C CNN
@@ -330,7 +331,7 @@ F 3 "" H 2000 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ESP_WeatherStation-rescue:ESP-12F U2
+L ESP8266:ESP-12F U2
 U 1 1 5A92C426
 P 4200 2600
 F 0 "U2" H 4200 2500 50  0000 C CNN
