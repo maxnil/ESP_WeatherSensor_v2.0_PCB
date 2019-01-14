@@ -1,0 +1,2 @@
+*.net linguist-vendored=Objective-C
+*.pro linguist-vendored=KiCad
